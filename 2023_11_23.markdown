@@ -1,0 +1,33 @@
+# 2023 11 23
+Dar 2 passadas no paper do Devito
+Do site, preciso formalizar:
+- "Finite differences"
+- "Sparse operators"
+- "linear operators"
+- "boundary conditions"
+- "adjoint operators"
+- "sub-domains, sub-sampling, and staggered grids"
+Nada disso é trivial. A complexidade de um software dessa sofisticação é real.
+Devito é uma DSL e framework para geração de código; Seu uso principal se dá para geofísica de exploração mas o software poderia ser mais que isso; Existe uma certa generalidade a ser tirada daqui.
+O adjunto parece ser algo generalizado para qualquer equação diferencial parcial.
+A resolução de equações diferenciais parciais parece ser de grande importância em HPC.
+Mesma estrutura de Frontend -> Backend;
+Mais um termo para formalizar:
+- "seismic operators"
+
+Link para aprender mais sobre docker -> https://dwmkerr.com/learn-docker-by-building-a-microservice/
+
+Ideias para o futuro: 
+- Backend FPGAs para o Devito (mega projeto)
+- Visualização da propagação (fazível num curto período de tempo)
+
+Por que que df/dx ~ - f(x - 1/2) + f(x + 1/2)?
+
+Link muito bom introduzindo o método de diferenças finitas: https://www.youtube.com/watch?v=YotrBNLFen0 
+
+Link video aprofundado sobre diferenças finitas:  https://www.youtube.com/watch?v=9fGaTU1-f-0
+
+---
+
+OK rodando um container do Devito
+OK Tutorial do sympy
